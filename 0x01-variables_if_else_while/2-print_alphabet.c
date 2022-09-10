@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
-* main - prints the alphabet in lowercase
+* main - print inf the number is positive, zero, or negative
 *
 * Description: using the main function
-* this program prints "Programming the alphabet in lowercase
-* Retun: 0
+* this program prints "Programming is positive, zero, or negative
+* Return: 0
 */
 int main(void)
 {
