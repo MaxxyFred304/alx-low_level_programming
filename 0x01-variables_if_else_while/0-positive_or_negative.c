@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
+#include <stdio>
 
 /**
 * main - print if the number is positive, zero or negative
@@ -15,14 +15,14 @@ int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
- /* your code goes there */ 
+ /* your code goes here */
 if (n > 0)
 {
 	printf("%i is positive\n", n);
 }
-else if (n > 0)
+else if (n == 0)
 {
-	printf("%i is zero\n", n);
+	printf("%i is zero\n", n)
 }
 else if (n < 0)
 {
