@@ -1,8 +1,12 @@
 #include "main.h"
 /**
- * 10-add.c - function that adds to integers and returns the results
+ * Add - adds two intergers
+ * num1 - first integer to be added
+ * num2 - second integer to be added
  *
- * Return: 0
+ * Return: Result of the addition
  */
-int add(int, int)
+int add(int num1, int num2)
 {
+	return (num1 + num2);
+}
