@@ -1,24 +1,40 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
-*main - program that prints either number
-*or fizz or buzz or fizzBuzz
-*
-*
-*Return: returns 0
+*main - program that prints numbers, or fizz or buzz or fizzbuzz
+*Return: return 0 for success
 */
+
 int main(void)
 {
-	for (int n = 1; n < 100; n++)
+	int d;
+
+	for (d = 1; d <= 100; d++)
 	{
-		if ((n % 3 == 0) && (n % 5 == 0))
-			printf("FizzBuzz\n");
-		else if (n % 3 == 0)
-			printf("Fizz\n");
-		else if (n % 5 == 0)
-			printf("Buzz\n");
+		if (d % 3 == 0 && d % 5 != 0)
+		{
+
+			printf("Fizz");
+		}
+		else if (d % 5 == 0 && d % 3 != 0)
+		{
+			printf("Buzz");
+		}
+		else if else if (d % 3 == 0 && d % 5 == 0)
+		{
+			printf("FizzBuzz");
+		}
+		else if (d == 1)
+		{
+			printf("%d", d);
+		}
 		else
-			printf("%d\n", n);
+		{
+			printf(" %d", d);
+		}
 	}
+	printf("\n");
+
 	return (0);
 }
