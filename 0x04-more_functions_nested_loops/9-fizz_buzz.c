@@ -7,35 +7,18 @@
 *
 *Return: returns 0
 */
-
 int main(void)
 {
-	int num;
-
-	for (num = 1; num <= 100; num++)
+	for (int n = 1; n < 100; n++)
 	{
-		if ((num % 3) == 0 && (num % 5) == 0)
-		{
-			printf("FizzBuzz");
-		}
-		else if ((num % 3) == 0)
-		{
-			printf("Fizz");
-		}
-		else if ((num % %) == 0)
-		{
-			printf("Buzz");
-		}
+		if ((n % 3 == 0) && (n % 5 == 0))
+			printf("FizzBuzz\n");
+		else if (n % 3 == 0)
+			printf("Fizz\n");
+		else if (n % 5 == 0)
+			printf("Buzz\n");
 		else
-		{
-			printf("%d", num);
-		}
-		if (num == 100)
-			continue;
-		printf(" ");
+			printf("%d\n", n);
 	}
-
-	printf("\n");
-
 	return (0);
 }
