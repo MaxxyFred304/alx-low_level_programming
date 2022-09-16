@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
-*main - program that prints numbers, or fizz or buzz or fizzbuzz
-*Return: return 0 for success
+* main - program that prints numbers, or fizz or buzz or fizzbuzz
+* Return: return 0 for success
 */
 
 int main(void)
@@ -12,16 +12,15 @@ int main(void)
 
 	for (d = 1; d <= 100; d++)
 	{
-		if (d % 3 == 0 && d % 5 != 0)
+		 if (d % 3 == 0 && d % 5 != 0)
 		{
-
 			printf("Fizz");
 		}
 		else if (d % 5 == 0 && d % 3 != 0)
 		{
 			printf("Buzz");
 		}
-		else if else if (d % 3 == 0 && d % 5 == 0)
+		else if (d % 3 == 0 && d % 5 == 0)
 		{
 			printf("FizzBuzz");
 		}
@@ -31,10 +30,9 @@ int main(void)
 		}
 		else
 		{
-			printf(" %d", d);
+			printf("%d", d);
 		}
 	}
 	printf("\n");
-
 	return (0);
 }
