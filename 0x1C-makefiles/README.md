@@ -2,7 +2,7 @@
 In this project, I practiced writing Makefiles.
 
 Tests ✔️
-tests: Folder of test files. Provided by Holberton School.
+tests: Folder of test files. Provided by ALX School.
 Helper Files 🙌
 holberton.c: C function that displays a seahorse in text. Used for Makefile practice purposes throughout project. Provided by Holberton School.
 
